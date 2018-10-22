@@ -17,7 +17,7 @@ Page({
         header:{
           appkey:"KOLDaSADHDLWWbF"
         },
-        success:function(res){
+        success:(res)=>{
               console.log(res)
         }
       })
