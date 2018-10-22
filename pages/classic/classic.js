@@ -16,6 +16,9 @@ Page({
         url:'http://bl.7yue.pro/v1/classic/latest',
         header:{
           appkey:"KOLDaSADHDLWWbF"
+        },
+        success:function(res){
+              console.log(res)
         }
       })
   },
