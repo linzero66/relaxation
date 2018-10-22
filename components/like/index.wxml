@@ -1,0 +1,6 @@
+<!--miniprogram/components/like/index.wxml-->
+<view bind:tap="onLike" class="container">
+     <image  bind:tap="onLikeTwo" src="{{like?yesSrc:noSrc}}"></image>
+     <text >{{count}}</text>
+</view>
+<view >{{like?"兄弟好靓仔":"兄弟你好丑鬼"}}</view>
